@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		328CD5021AC48DEB00EFEFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CD5011AC48DEB00EFEFC2 /* AppDelegate.swift */; };
-		328CD5041AC48DEB00EFEFC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CD5031AC48DEB00EFEFC2 /* ViewController.swift */; };
 		328CD5071AC48DEB00EFEFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328CD5051AC48DEB00EFEFC2 /* Main.storyboard */; };
 		328CD5091AC48DEB00EFEFC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328CD5081AC48DEB00EFEFC2 /* Images.xcassets */; };
 		328CD50C1AC48DEB00EFEFC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328CD50A1AC48DEB00EFEFC2 /* LaunchScreen.xib */; };
 		328CD5181AC48DEB00EFEFC2 /* Ejemplo_llamada_webserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CD5171AC48DEB00EFEFC2 /* Ejemplo_llamada_webserviceTests.swift */; };
+		328CD5221AC4911500EFEFC2 /* TablaPoblacionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CD5211AC4911500EFEFC2 /* TablaPoblacionTableViewController.swift */; };
+		328CD5241AC4930D00EFEFC2 /* Poblacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CD5231AC4930D00EFEFC2 /* Poblacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		328CD4FC1AC48DEB00EFEFC2 /* Ejemplo llamada webservice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejemplo llamada webservice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		328CD5001AC48DEB00EFEFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328CD5011AC48DEB00EFEFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		328CD5031AC48DEB00EFEFC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		328CD5061AC48DEB00EFEFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		328CD5081AC48DEB00EFEFC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		328CD50B1AC48DEB00EFEFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		328CD5111AC48DEB00EFEFC2 /* Ejemplo llamada webserviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ejemplo llamada webserviceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		328CD5161AC48DEB00EFEFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328CD5171AC48DEB00EFEFC2 /* Ejemplo_llamada_webserviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo_llamada_webserviceTests.swift; sourceTree = "<group>"; };
+		328CD5211AC4911500EFEFC2 /* TablaPoblacionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TablaPoblacionTableViewController.swift; path = ../TablaPoblacionTableViewController.swift; sourceTree = "<group>"; };
+		328CD5231AC4930D00EFEFC2 /* Poblacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poblacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,13 @@
 		328CD4FE1AC48DEB00EFEFC2 /* Ejemplo llamada webservice */ = {
 			isa = PBXGroup;
 			children = (
+				328CD5211AC4911500EFEFC2 /* TablaPoblacionTableViewController.swift */,
 				328CD5011AC48DEB00EFEFC2 /* AppDelegate.swift */,
-				328CD5031AC48DEB00EFEFC2 /* ViewController.swift */,
 				328CD5051AC48DEB00EFEFC2 /* Main.storyboard */,
 				328CD5081AC48DEB00EFEFC2 /* Images.xcassets */,
 				328CD50A1AC48DEB00EFEFC2 /* LaunchScreen.xib */,
 				328CD4FF1AC48DEB00EFEFC2 /* Supporting Files */,
+				328CD5231AC4930D00EFEFC2 /* Poblacion.swift */,
 			);
 			path = "Ejemplo llamada webservice";
 			sourceTree = "<group>";
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328CD5041AC48DEB00EFEFC2 /* ViewController.swift in Sources */,
+				328CD5241AC4930D00EFEFC2 /* Poblacion.swift in Sources */,
+				328CD5221AC4911500EFEFC2 /* TablaPoblacionTableViewController.swift in Sources */,
 				328CD5021AC48DEB00EFEFC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
